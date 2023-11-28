@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Bài tập JS buổi 2-3</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -20,31 +20,166 @@
   <body>
     <div class="bai1">
       <div class="container">
-        <h1>Bài tập 1</h1>
+        <h1 class="text-center pt-3">Bài 1: Tính tiền lương nhân viên</h1>
+        <div class="form-group">
+          <label for="luongMotNgay">Số tiền lương một ngày</label>
+          <input
+            type="text"
+            name=""
+            id="luongMotNgay"
+            class="form-control"
+            placeholder="Vui lòng nhập số tiền lương một ngày"
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="soNgayLam">Số ngày làm</label>
+          <input
+            type="text"
+            name=""
+            id="soNgayLam"
+            class="form-control"
+            placeholder="Vui lòng nhập số ngày làm"
+            aria-describedby="helpId"
+          />
+        </div>
+        <button id="btn1" class="btn btn-primary">Tính tiền lương</button>
+        <div id="ketQua1" class="p-3 mt-3 bg-primary text-white"></div>
       </div>
     </div>
 
     <div class="bai2">
       <div class="container">
-        <h1>Bài tập 2</h1>
+        <h1 class="text-center pt-3">Bài 2: Tính giá trị trung bình</h1>
+        <div class="form-group">
+          <label for="soThu1">Số thứ 1</label>
+          <input
+            type="text"
+            name=""
+            id="soThu1"
+            class="form-control"
+            placeholder="Vui lòng nhập số thứ 1"
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="soThu2">Số thứ 2</label>
+          <input
+            type="text"
+            name=""
+            id="soThu2"
+            class="form-control"
+            placeholder="Vui lòng nhập số thứ 2"
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="soThu3">Số thứ 3</label>
+          <input
+            type="text"
+            name=""
+            id="soThu3"
+            class="form-control"
+            placeholder="Vui lòng nhập số thứ 3"
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="soThu4">Số thứ 4</label>
+          <input
+            type="text"
+            name=""
+            id="soThu4"
+            class="form-control"
+            placeholder="Vui lòng nhập số thứ 4"
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="soThu5">Số thứ 5</label>
+          <input
+            type="text"
+            name=""
+            id="soThu5"
+            class="form-control"
+            placeholder="Vui lòng nhập số thứ 5"
+            aria-describedby="helpId"
+          />
+        </div>
+        <button id="btn2" class="btn btn-secondary">
+          Tính giá trị trung bình
+        </button>
+        <div id="ketQua2" class="p-3 mt-3 bg-secondary text-white"></div>
       </div>
     </div>
 
     <div class="bai3">
       <div class="container">
-        <h1>Bài tập 3</h1>
+        <h1 class="text-center pt-3">Bài 3: Quy đổi tiền</h1>
+        <div class="form-group">
+          <label for="soTienUSD">Số tiền mệnh giá USD</label>
+          <input
+            type="text"
+            name=""
+            id="soTienUSD"
+            class="form-control"
+            placeholder="Vui lòng nhập số tiền USD"
+            aria-describedby="helpId"
+          />
+        </div>
+        <button id="btn3" class="btn btn-success">Quy đổi tiền</button>
+        <div id="ketQua3" class="p-3 mt-3 bg-success text-white"></div>
       </div>
     </div>
 
     <div class="bai4">
       <div class="container">
-        <h1>Bài tập 4</h1>
+        <h1 class="text-center pt-3">
+          Bài 4: Tính diện tích, chu vi hình chữ nhật
+        </h1>
+        <div class="form-group">
+          <label for="chieuDai">Chiều dài hình chữ nhật</label>
+          <input
+            type="text"
+            name=""
+            id="chieuDai"
+            class="form-control"
+            placeholder="Nhập chiều dài"
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="chieuRong">Chiều rộng hình chữ nhật</label>
+          <input
+            type="text"
+            name=""
+            id="chieuRong"
+            class="form-control"
+            placeholder="Nhập chiều rộng"
+            aria-describedby="helpId"
+          />
+        </div>
+        <button id="btn4" class="btn btn-danger">Tính kích thước</button>
+        <div id="ketQua4" class="p-3 mt-3 bg-danger text-white"></div>
       </div>
     </div>
 
-    <div class="bai5">
+    <div class="bai5 mb-5">
       <div class="container">
-        <h1>Bài tập 5</h1>
+        <h1 class="text-center pt-3">Bài 5: Tính tổng 2 ký số</h1>
+        <div class="form-group">
+          <label for="soCo2ChuSo">Số có 2 chữ số</label>
+          <input
+            type="text"
+            name=""
+            id="soCo2ChuSo"
+            class="form-control"
+            placeholder="Nhập số có 2 chữ số"
+            aria-describedby="helpId"
+          />
+        </div>
+        <button id="btn5" class="btn btn-warning">Tính tổng</button>
+        <div id="ketQua5" class="p-3 mt-3 bg-warning text-white"></div>
       </div>
     </div>
     <!-- Optional JavaScript -->
