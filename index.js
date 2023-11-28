@@ -115,7 +115,6 @@ document.getElementById("btn5").onclick = function () {
   } else {
     ketQua5 = `Tổng ký số bạn vừa nhập là ${tong}.`;
   }
-  //   ketQua5 = `Tổng ký số bạn vừa nhập là ${tong}.`;
   document.getElementById("ketQua5").innerHTML = ketQua5;
 };
 
